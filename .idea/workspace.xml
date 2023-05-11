@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96e0ab0d-39f4-4338-b285-e4d475a1aca9" name="Default Changelist" comment="前台" />
+    <list default="true" id="96e0ab0d-39f4-4338-b285-e4d475a1aca9" name="Default Changelist" comment="后台" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +82,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.OSSMain">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FilmManagement" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="film-management" />
       <extension name="coverage">
@@ -243,7 +256,7 @@
       <workItem from="1683348473292" duration="2094000" />
       <workItem from="1683783880165" duration="1066000" />
       <workItem from="1683784964710" duration="297000" />
-      <workItem from="1683786083470" duration="308000" />
+      <workItem from="1683786083470" duration="751000" />
     </task>
     <task id="LOCAL-00001" summary="完成后台修改密码功能">
       <created>1673168616693</created>
@@ -329,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683786366877</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="后台">
+      <created>1683786466768</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683786466768</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +377,8 @@
     <MESSAGE value="添加座位bug" />
     <MESSAGE value="修改小bug" />
     <MESSAGE value="前台" />
-    <option name="LAST_COMMIT_MESSAGE" value="前台" />
+    <MESSAGE value="后台" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
