@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dkh.mapper.CommentMapper">
+
+    <resultMap id="CommentMap" type="com.dkh.pojo.Comment">
+        <id column="id" property="id"/>
+        <result column="score" property="score"/>
+        <result column="comment_time" property="commentTime"/>
+        <result column="content" property="content"/>
+        <result column="user_id" property="userId"/>
+        <result column="film_id" property="filmId"/>
+        <association property="user" javaType="com.dkh.pojo.User">
+            <result column="id" property="id"/>
+            <result column="username" property="username"/>
+        </association>
+        <association property="film" javaType="com.dkh.pojo.Film">
+            <result column="id" property="id"/>
+            <result column="film_name" property="filmName"/>
+        </association>
+    </resultMap>
+
+
+    <select id="getCommentList" resultMap="CommentMap">
+        SELECT
+            c.id,
+            c.user_id,
+            f.film_name,
+            c.score,
+            c.content,
+            c.comment_time
+        FROM
+            tb_film f,
+            tb_comment c,
+            tb_user u
+        WHERE
+            f.id = c.film_id
+          AND u.id = c.user_id
+            LIMIT #{current},#{size}
+    </select>
+</mapper>

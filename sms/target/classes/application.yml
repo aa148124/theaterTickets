@@ -1,0 +1,13 @@
+server:
+  port: 6666
+aliyun:
+  sms:
+    regionId: defalut
+    accessKeyId: LTAI5t89s8VcTDm9qgr4VXyG
+    accessKeySecret: ZGYRpE4sewpbSK1jtrjcbQttnBvZZM
+spring:
+  rabbitmq:
+    port: 5672
+    username: admin
+    password: admin
+    host: 192.168.88.147

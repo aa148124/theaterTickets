@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="96e0ab0d-39f4-4338-b285-e4d475a1aca9" name="Default Changelist" comment="修改小bug" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Java_jar/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JqhDGwZhtkxfvSKt04mJMyT9xK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/loginAndRegister/src/main/resources/com/dkh/mapper" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.35268506" />
+    <property name="settings.editor.selected.configurable" value="com.obiscr.chatgpt.settings.OpenAISettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaCode\theaterTickets\loginAndRegister\src\main\resources\com\dkh\mapper" />
+      <recent name="D:\JavaCode\theaterTickets\commons-api\src\main\java\com\dkh\pojo" />
+      <recent name="D:\JavaCode\theaterTickets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaCode\theaterTickets\loginAndRegister\src\main\resources\com\dkh\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OSSMain">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilmManagement" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="film-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dkh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dkh.FilmManagement" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MQMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dkh.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dkh.mq.MQMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OSSMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="oss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dkh.oss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dkh.oss.OSSMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmsMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dkh.sms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dkh.sms.SmsMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dkh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dkh.UserMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SmsMain" />
+      <item itemvalue="Spring Boot.MQMain" />
+      <item itemvalue="Spring Boot.UserMain" />
+      <item itemvalue="Spring Boot.FilmManagement" />
+      <item itemvalue="Spring Boot.OSSMain" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserMain" />
+        <item itemvalue="Spring Boot.OSSMain" />
+        <item itemvalue="Spring Boot.FilmManagement" />
+        <item itemvalue="Spring Boot.MQMain" />
+        <item itemvalue="Spring Boot.SmsMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96e0ab0d-39f4-4338-b285-e4d475a1aca9" name="Default Changelist" comment="" />
+      <created>1672811401235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672811401235</updated>
+      <workItem from="1672811402618" duration="1471000" />
+      <workItem from="1672824486152" duration="22394000" />
+      <workItem from="1672922009794" duration="4405000" />
+      <workItem from="1673007101219" duration="712000" />
+      <workItem from="1673007826570" duration="4053000" />
+      <workItem from="1673012329641" duration="1952000" />
+      <workItem from="1673058460923" duration="3390000" />
+      <workItem from="1673145318575" duration="13258000" />
+      <workItem from="1673163554720" duration="4186000" />
+      <workItem from="1673182609983" duration="14312000" />
+      <workItem from="1673250628249" duration="653000" />
+      <workItem from="1673251291185" duration="2232000" />
+      <workItem from="1673317593700" duration="10255000" />
+      <workItem from="1673404738101" duration="3961000" />
+      <workItem from="1673621590186" duration="26000" />
+      <workItem from="1673680159978" duration="7566000" />
+      <workItem from="1673749920666" duration="22194000" />
+      <workItem from="1673875440891" duration="4428000" />
+      <workItem from="1673943510487" duration="4735000" />
+      <workItem from="1674014790707" duration="16526000" />
+      <workItem from="1674095649730" duration="7728000" />
+      <workItem from="1674181751152" duration="9385000" />
+      <workItem from="1674528891703" duration="141287000" />
+      <workItem from="1675499201304" duration="2806000" />
+      <workItem from="1675652970834" duration="124000" />
+      <workItem from="1675653173268" duration="81000" />
+      <workItem from="1676040384727" duration="10072000" />
+      <workItem from="1676179559802" duration="597000" />
+      <workItem from="1676182281812" duration="32000" />
+      <workItem from="1676182327125" duration="1000" />
+      <workItem from="1676367420804" duration="613000" />
+      <workItem from="1676463218298" duration="6448000" />
+      <workItem from="1676860283507" duration="7905000" />
+      <workItem from="1676898406434" duration="3219000" />
+      <workItem from="1677162657863" duration="225000" />
+      <workItem from="1677494963839" duration="6157000" />
+      <workItem from="1677994266321" duration="1736000" />
+      <workItem from="1678014965085" duration="131000" />
+      <workItem from="1678015113106" duration="1536000" />
+      <workItem from="1678076287607" duration="1567000" />
+      <workItem from="1678086787595" duration="11401000" />
+      <workItem from="1678877492837" duration="327000" />
+      <workItem from="1678878074947" duration="4111000" />
+      <workItem from="1678969667007" duration="3885000" />
+      <workItem from="1679391825377" duration="2000" />
+      <workItem from="1679391851764" duration="6049000" />
+      <workItem from="1679406648704" duration="7000" />
+      <workItem from="1679410790023" duration="1125000" />
+      <workItem from="1679721848726" duration="7904000" />
+      <workItem from="1680054008031" duration="21000" />
+      <workItem from="1680057130730" duration="18000" />
+      <workItem from="1680081306874" duration="946000" />
+      <workItem from="1680138734322" duration="20000" />
+      <workItem from="1680277668500" duration="605000" />
+      <workItem from="1680571609919" duration="17000" />
+      <workItem from="1680572891274" duration="25000" />
+      <workItem from="1680572947183" duration="8000" />
+      <workItem from="1680574606890" duration="231000" />
+      <workItem from="1680686616086" duration="590000" />
+      <workItem from="1680753525091" duration="142000" />
+      <workItem from="1680755788350" duration="128000" />
+      <workItem from="1680834311333" duration="14000" />
+      <workItem from="1681184673671" duration="141000" />
+      <workItem from="1681891436322" duration="3691000" />
+      <workItem from="1682258155677" duration="736000" />
+      <workItem from="1682328462529" duration="1305000" />
+      <workItem from="1682391918909" duration="3382000" />
+      <workItem from="1683176600560" duration="3449000" />
+      <workItem from="1683348473292" duration="2094000" />
+      <workItem from="1683783880165" duration="1066000" />
+    </task>
+    <task id="LOCAL-00001" summary="完成后台修改密码功能">
+      <created>1673168616693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673168616693</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完成管理员列表功能">
+      <created>1673328454899</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673328454899</updated>
+    </task>
+    <task id="LOCAL-00003" summary="完成电影添加以及电影列表的展示功能">
+      <created>1674015455859</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674015455859</updated>
+    </task>
+    <task id="LOCAL-00004" summary="完成oos和sms功能">
+      <created>1675131414034</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675131414034</updated>
+    </task>
+    <task id="LOCAL-00005" summary="基本完成所有功能">
+      <created>1676105645373</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676105645373</updated>
+    </task>
+    <task id="LOCAL-00006" summary="基本完成所有功能">
+      <created>1676182299229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676182299229</updated>
+    </task>
+    <task id="LOCAL-00007" summary="添加sentinel">
+      <created>1678076361954</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678076361954</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加座位bug">
+      <created>1679729420530</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679729420530</updated>
+    </task>
+    <task id="LOCAL-00009" summary="修改小bug">
+      <created>1683784250487</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683784250487</updated>
+    </task>
+    <task id="LOCAL-00010" summary="修改小bug">
+      <created>1683784333243</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683784333243</updated>
+    </task>
+    <task id="LOCAL-00011" summary="修改小bug">
+      <created>1683784658062</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683784658062</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成后台修改密码功能" />
+    <MESSAGE value="完成管理员列表功能" />
+    <MESSAGE value="完成电影添加以及电影列表的展示功能" />
+    <MESSAGE value="完成oos和sms功能" />
+    <MESSAGE value="基本完成所有功能" />
+    <MESSAGE value="添加sentinel" />
+    <MESSAGE value="添加座位bug" />
+    <MESSAGE value="修改小bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改小bug" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="comments" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

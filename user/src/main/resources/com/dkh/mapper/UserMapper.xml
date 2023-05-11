@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dkh.mapper.UserMapper">
+
+
+    <resultMap id="userMap" type="com.dkh.pojo.User">
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="nickName" column="nick_name"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="updateTime"/>
+        <result property="phone" column="phone"/>
+        <result property="icon" column="icon"/>
+    </resultMap>
+    <select id="searchUserByCondition" resultType="com.dkh.pojo.User">
+        select id,username,nick_name,create_time,phone,icon
+        from tb_user
+        <where>
+            <if test="id != null and id != ''">
+                id = #{id}
+            </if>
+            <if test="username != null and username != ''">
+                username = #{username}
+            </if>
+            <if test="phone != null and phone != ''">
+                phone = #{phone}
+            </if>
+        </where> ;
+    </select>
+
+
+</mapper>

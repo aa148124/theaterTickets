@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dkh.mapper.ArrangeMapper">
+
+    <resultMap id="arrangeMap" type="com.dkh.pojo.Arrange">
+        <id property="id" column="id"/>
+        <result property="playTime" column="play_time"/>
+        <result property="seat" column="seat"/>
+        <result property="price" column="price"/>
+        <result property="stock" column="stock"/>
+        <result property="filmId" column="film_id"/>
+        <result property="roomId" column="room_id"/>
+        <result property="version" column="version"/>
+        <association property="film" javaType="com.dkh.pojo.Film">
+            <result column="id" property="id"/>
+            <result property="filmName" column="film_name"/>
+            <result property="poster" column="poster"/>
+        </association>
+        <association property="room" javaType="com.dkh.pojo.Room">
+            <result column="id" property="id"/>
+            <result property="roomName" column="room_name"/>
+        </association>
+    </resultMap>
+    <select id="getArrangePage" resultMap="arrangeMap">
+        SELECT a.id,
+               a.play_time,
+               a.seat,
+               a.price,
+               a.stock,
+               f.film_name,
+               r.room_name
+        FROM tb_arrange a,
+             tb_room r,
+             tb_film f
+        WHERE a.room_id = r.id
+          AND a.film_id = f.id
+            LIMIT #{current}
+            , #{size}
+    </select>
+    <select id="getArrangeById" resultMap="arrangeMap">
+        SELECT a.id,
+               a.play_time,
+               a.seat,
+               a.price,
+               a.stock,
+               film_id,
+               f.film_name,
+               r.room_name,
+               f.poster,
+               a.version
+        FROM tb_arrange a,
+             tb_room r,
+             tb_film f
+        WHERE a.room_id = r.id
+          AND a.id = #{id}
+          AND a.film_id = f.id
+    </select>
+    <select id="getArrangeByFilmId" resultMap="arrangeMap">
+        SELECT f.film_name,
+               r.room_name,
+               a.id,
+               a.play_time,
+               a.price,
+               a.seat,
+               a.stock
+        FROM tb_arrange a,
+             tb_room r,
+             tb_film f
+        WHERE (
+                      a.film_id = #{filmId}
+                      AND play_time >= #{playTime}
+                      AND a.room_id = r.id AND a.film_id = f.id
+                  )
+    </select>
+
+</mapper>

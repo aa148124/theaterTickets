@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dkh.mapper.OrderMapper">
+
+    <resultMap id="orderMap" type="com.dkh.pojo.Order">
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId"/>
+        <result column="arrange_id" property="arrangeId"/>
+        <result column="seat" property="seat"/>
+        <result column="order_time" property="orderTime"/>
+        <result column="status" property="status"/>
+        <result column="price" property="price"/>
+        <result column="payment_time" property="paymentTime"/>
+    </resultMap>
+    <select id="searchByCondition" resultMap="orderMap">
+        select *
+        from tb_order
+        <where>
+            <if test="id != null and id != ''">
+                id = #{id}
+            </if>
+            <if test="userId != null and userId != ''">
+                and user_id = #{userId}
+            </if>
+            <if test="arrangeId != null and arrangeId != ''">
+                and arrange_id = #{arrangeId}
+            </if>
+        </where>
+        order by order_time asc
+        limit #{current}, #{size};
+    </select>
+</mapper>

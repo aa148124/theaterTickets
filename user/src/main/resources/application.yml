@@ -1,0 +1,36 @@
+server:
+  port: 8001
+spring:
+  rabbitmq:
+    port: 5672
+    username: admin
+    password: admin
+    host: 192.168.88.147
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    sentinel:
+      transport:
+        dashboard: http://localhost:8080
+        port: 8719
+      datasource:
+        ds1:
+          nacos:
+            server-addr: http://localhost:8848
+            #            namespace: 4547696e-e495-4833-88c7-06a398e6a53b
+            dataId: user-service-flow-rules
+            groupId: DEFAULT_GROUP
+            data-type: json
+            ruleType: flow
+            username: nacos
+            password: nacos
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+
+

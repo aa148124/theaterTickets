@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dkh.mapper.FilmMapper">
+
+    <resultMap id="filmMap" type="com.dkh.pojo.Film">
+        <id column="id" property="id"/>
+        <result column="film_name" property="filmName"/>
+        <result column="director" property="director"/>
+        <result column="performer" property="performer"/>
+        <result column="box_office" property="boxOffice"/>
+        <result column="region" property="region"/>
+        <result column="release_time" property="releaseTime"/>
+        <result column="duration" property="duration"/>
+        <result column="synopsis" property="synopsis"/>
+        <result column="poster" property="poster"/>
+        <result column="status" property="status"/>
+    </resultMap>
+    <select id="searchByCondition" resultMap="filmMap">
+        select *
+        from tb_film
+        <where>
+            <if test="id != null and id != ''">
+                id = #{id}
+            </if>
+            <if test="filmName != null and filmName != ''">
+                and film_name = #{filmName}
+            </if>
+            <if test="status != null">
+                and status = #{status}
+            </if>
+        </where>
+        order by status asc
+        limit #{current}, #{size};
+    </select>
+    <select id="getCountByCondiction" resultType="java.lang.Integer">
+        select count(*)
+        from tb_film
+        <where>
+            <if test="id != null and id != ''">
+                id = #{id}
+            </if>
+            <if test="filmName != null and filmName != ''">
+                and film_name = #{filmName}
+            </if>
+            <if test="status != null">
+                and status = #{status}
+            </if>
+        </where>
+    </select>
+
+
+</mapper>
