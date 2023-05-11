@@ -1,0 +1,30 @@
+{
+  "name": "buy-ticket-site",
+  "version": "1.0.0",
+  "description": "电影院线上购票网站",
+  "author": "dkh",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dayjs": "^1.11.7",
+    "element-ui": "^2.15.12",
+    "js-cookie": "^3.0.1",
+    "nuxt": "^2.0.0",
+    "qs": "^6.11.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}

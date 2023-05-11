@@ -1,0 +1,98 @@
+
+.el-carousel__item h3 {
+    color: #475669;
+    font-size: 18px;
+    opacity: 0.75;
+    line-height: 300px;
+    margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+}
+
+.el-carousel__container {
+    height: 500px;
+    width: 1000px;
+}
+
+.panel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.panel img {
+    width: 160px;
+    height: 220px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: -4px;
+}
+
+.panel div {
+    margin-bottom: 10px;
+}
+.el-row {
+    margin-bottom: 20px;
+
+}
+
+.el-col {
+    border-radius: 4px;
+}
+
+.bg-purple-dark {
+    background: #99a9bf;
+}
+
+.bg-purple {
+    background: #d3dce6;
+}
+
+.bg-purple-light {
+    background: #e5e9f2;
+}
+
+.grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+}
+
+.row-bg {
+    padding: 10px 0;
+    background-color: #f9fafc;
+}
+
+.el-button {
+    border-radius: 0px;
+    width: 160px;
+    margin-top: -5px;
+}
+
+h1 {
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 10px;
+}
+
+.film {
+    position: relative;
+}
+
+.filmName {
+    width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-65%,0);
+    color: white;
+    white-space: nowrap;
+}

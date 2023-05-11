@@ -1,0 +1,43 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.el-menu--horizontal > .el-menu-item.is-active {
+    border-bottom: 2px solid red;
+}
+
+.el-menu--horizontal > .el-submenu.is-active .el-submenu__title {
+    border-bottom: 2px solid red;
+}
+
+.el-menu-item {
+    font-size: 18px;
+}
+.nav .el-menu{
+    height: 60px;
+}
+
+#logo {
+    width: 133px;
+    height: 40px;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+.el-menu{
+    justify-content: center; /* 水平居中 */
+}
+.show-top{
+    height: 60px;
+    background-color: #47464a;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.showfilm{
+
+    width: 1200px;
+    margin-top: 30px;
+}
