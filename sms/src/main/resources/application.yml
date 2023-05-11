@@ -3,8 +3,8 @@ server:
 aliyun:
   sms:
     regionId: defalut
-    accessKeyId: LTAI5t89s8VcTDm9qgr4VXyG
-    accessKeySecret: ZGYRpE4sewpbSK1jtrjcbQttnBvZZM
+    accessKeyId: 
+    accessKeySecret: 
 spring:
   rabbitmq:
     port: 5672

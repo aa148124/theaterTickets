@@ -2,6 +2,6 @@ server:
   port: 5555
 aliyun:
   oss:
-    endpoint: oss-cn-guangzhou.aliyuncs.com
-    accessKeyId: LTAI5t89s8VcTDm9qgr4VXyG
-    accessKeySecret: ZGYRpE4sewpbSK1jtrjcbQttnBvZZM
+    endpoint: 
+    accessKeyId: 
+    accessKeySecret: 
